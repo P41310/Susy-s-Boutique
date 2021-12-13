@@ -453,11 +453,8 @@ footer .prop img{
 /* SLIDER************************************SLIDER*********************************SLIDER********* */
 
 .container-slider{
-	width: 100%;
-	max-width: 900px;
 	margin: auto;
 	overflow: hidden;
-	box-shadow: 0 0 0 10px #fff 0 15px 50px;
 	position: relative;
 }
 
