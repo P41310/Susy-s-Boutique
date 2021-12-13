@@ -31,7 +31,7 @@ let sliderSectionLast =  sliderSection[sliderSection.length -1];
 const btnLeft = document.querySelector("#btn-left");
 const btnRight = document.querySelector("#btn-right");
 
-slider.insertAdjacentElement("afterbegin", sliderSectionLast);
+slider.insertAdjacentElement('afterbegin', sliderSectionLast);
 
 function Next(){
 	let sliderSectionFirst = document.querySelectorAll(".slide__section")[0];
@@ -39,7 +39,7 @@ function Next(){
 	slider.style.Transition = "all 0.5s";
 	setTimeout(function(){
 		slider.style.Transition = "none";
-		slider.insertAdjacentElement("beforeend", sliderSectionFirst);
+		slider.insertAdjacentElement('beforeend', sliderSectionFirst);
 		slider.style.marginLeft = "-100%";
 		}, 500);
 }
