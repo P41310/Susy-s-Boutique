@@ -5,7 +5,7 @@ let sliderSectionLast =  sliderSection[sliderSection.length -1];
 const btnLeft = document.querySelector("#btn-left");
 const btnRight = document.querySelector("#btn-right");
 
-slider.insertAdjacentElement('afterbegin', sliderSectionLast);
+slider.insertAdjacentElement("afterbegin", sliderSectionLast);
 
 
 function Next(){
@@ -28,7 +28,20 @@ function Prev() {
 	slider.style.Transition = "all 0.5s";
 	setTimeout(function(){
 		slider.style.Transition = "none";
-		slider.insertAdjacentElement("afterbegin", sliderSectionLast);
+		slider.insertAdjacentElement('afterbegin', sliderSectionLast);
 		slider.style.marginLeft = "-100%";
 		}, 500);
 }
+
+btnRight.addEventListener('click',function(){
+    Next();
+});
+
+btnLeft.addEventListener('click',function(){
+    Prev();
+});
+
+setInterval(function(){
+    Next();
+},5000);
+
