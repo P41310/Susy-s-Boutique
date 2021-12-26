@@ -460,15 +460,15 @@ footer .prop img{
 	/*overflow: hidden;*/
 	box-shadow: 0 0 0 #fff;
 	position: relative;
-	margin-left: 0;
+	margin:auto;
 	box-sizing: border-box;
 	
 }
 
 .slider{
 	display: flex;
-	width: 500%;
-	height: 500px;
+	width: 400%;
+	height: 400px;
 	margin-left: 0;
 }
 
