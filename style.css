@@ -473,8 +473,9 @@ footer .prop img{
 }
 
 .slider__section{
-	width: 1080px;
+	width: 1280px;
 	background-color: rgb(47, 78, 255);
+	position: relative;
 }
 
 .slider__img{
@@ -512,11 +513,28 @@ footer .prop img{
 }
 
 .slider__content{
-	position: relative;
+	position: absolute;
 	top: 50%;
 	left: 50%;
 	color: white;
 	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.slider__link{
+	display: block;
+	border: 1px solid #FF33A5;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+.slider__title{
+	font-size: 2em;
+}
+
+.slider__txt{
+	color: #fff;
 }
 
 /*mediaQuery*************************************************************************Mobile*/
