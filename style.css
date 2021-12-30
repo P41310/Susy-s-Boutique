@@ -61,6 +61,7 @@ header .container nav a:hover{
 header .container .hamb{
 		display: none;
 		position: relative;
+		margin-right: 0.1rem;
 	}
 
 	/**********************FOOTER*********************************BARRA*FOOTER*************************FOOTER*********/
@@ -455,12 +456,12 @@ footer .prop img{
 
 .container-slider{
 	
-	max-width: 1080px;
+	max-width: 100%;
 	width: 100%;
 	/*overflow: hidden;*/
 	box-shadow: 0 0 0 #fff;
 	position: relative;
-	margin:auto;
+	margin-top: 6rem;
 	
 	
 }
@@ -473,7 +474,7 @@ footer .prop img{
 }
 
 .slider__section{
-	width: 1280px;
+	width: 100%;
 	background-color: rgb(47, 78, 255);
 	position: relative;
 }
@@ -490,7 +491,7 @@ footer .prop img{
 	width: 40px;
 	height: 40px;
 	background: rgba(255, 255, 255, 0.7);
-	top: 50%;
+	top: 40%;
 	transform: translateY(-50%);
 	font-size: 30px;
 	font-weight: bold;
@@ -574,8 +575,6 @@ footer .prop img{
 	header .container .hamb{
 		display: block;
 		font-size: 40px
-		color: red;
-		position: relative;
 	}
 
 	form .boton.boton-negro{
