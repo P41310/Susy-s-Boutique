@@ -39,13 +39,14 @@ header .container{
 }
 
 header .container .logo{
-	width: 70px; /*propiedad*/
+	width: 80px; /*propiedad*/
 }
 
 header .container a{
 	color: #FF33A5; 
 	text-decoration: none; /*le quita las lineas de abajo a etiquetas*/
 	margin: 0 15px; /*es el espacio hacia afuera*/
+	font-size: 25px;
 }
 
 header .container nav a{
